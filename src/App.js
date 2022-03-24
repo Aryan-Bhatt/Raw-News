@@ -18,6 +18,11 @@ const App=()=> {
     <Navbar name="RawNews"/>
     <Switch>
 
+    <Route exact path="/">
+    <Display cat="general" key="general"/>
+    </Route>
+
+
     <Route exact path="/general">
     <Display cat="general" key="general"/>
     </Route>
